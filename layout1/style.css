@@ -1,0 +1,27 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    border: 2px solid lightgray;
+    height: 100px;
+    width: 100px;
+}
+.small-box{
+    border: 2px solid lightgray;
+    height: 50px;
+    width: 50px;
+    margin-left: 24px;
+}
+.box-wrap{
+    display: flex;
+    align-items: center;
+}
+.container{
+    border: 2px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
